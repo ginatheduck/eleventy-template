@@ -1,0 +1,24 @@
+{
+  "name": "eleventy-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ginatheduck/eleventy-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ginatheduck/eleventy-template/issues"
+  },
+  "homepage": "https://github.com/ginatheduck/eleventy-template#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
