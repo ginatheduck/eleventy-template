@@ -4,7 +4,7 @@
     <div class="site-head__inner">
 
       <!-- site logo -->
-      <a href="/" aria-label="Issue 33 - home" class="site-head__brand">
+      <a href="{{ '/' | url }}" aria-label="Issue 33 - home" class="site-head__brand">
         {% include "partials/brand.svg" %}
       </a>
       
@@ -12,10 +12,10 @@
       <nav class="[ nav ] [ site-head__nav ] [ font-sans ]" aria-label="Primary">
         <ul class="nav__list">
           <li>
-            <a href="/">home</a>
+            <a href="{{ '/' | url }}">home</a>
           </li>
           <li>
-            <a href="/projects">projects</a>
+            <a href="{{ '/projects' | url }}">projects</a>
           </li>
         </ul>
       </nav>
